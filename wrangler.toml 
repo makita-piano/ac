@@ -1,3 +1,7 @@
-name = "accueil"
-compatibility_date = "2025-07-24"  # できるだけ最新の日付に
-compatibility_flags = "nodejs_compat_populate_process_env"
+name = "next-on-pages-app"
+compatibility_date = "2024-07-24"
+
+compatibility_flags = [
+  "nodejs_compat",
+  "nodejs_compat_populate_process_env"
+]
