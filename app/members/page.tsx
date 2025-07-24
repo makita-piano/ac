@@ -9,6 +9,8 @@ type Props = {
   }>;
 };
 
+export const runtime = 'edge';
+
 export default async function Page(props: Props) {
   const searchParams = await props.searchParams;
   const data = await getMembersList({

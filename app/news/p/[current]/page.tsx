@@ -9,6 +9,8 @@ type Props = {
   }>;
 };
 
+export const runtime = 'edge';
+
 export default async function Page(props: Props) {
   const params = await props.params;
   const current = parseInt(params.current as string, 10);

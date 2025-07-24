@@ -13,6 +13,8 @@ type Props = {
   }>;
 };
 
+export const runtime = 'edge';
+
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const searchParams = await props.searchParams;
   const params = await props.params;
