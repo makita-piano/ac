@@ -40,9 +40,10 @@ export default async function Page() {
             <h2 className={styles.sectionTitleEn}>Business</h2>
             <p className={styles.sectionTitleJa}>事業内容</p>
             <p className={styles.sectionDescription}>
-              当社は、次世代テクノロジーの研究開発・製造・販売を行う革新的な企業です。
+私たちは、「迎える心」を原点に、医療・福祉・公共分野を中心とした事務支援サービスを提供する企業です。
               <br />
-              AI、ロボット工学、自律システムなど、幅広い分野でのソリューション提供を通じて、社会の進化と未来の創造に貢献します。
+受付業務や診療サポート、各種バックオフィス業務まで、現場に寄り添いながら、スムーズで温かみのある運営を支えます。
+一人ひとりに向き合う“おもてなしの心”と、確かな業務品質で、現場の信頼を築き、社会全体の安心と成長に貢献します。
             </p>
             <ButtonLink href="/business">もっとみる</ButtonLink>
           </div>
