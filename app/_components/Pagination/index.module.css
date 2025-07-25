@@ -17,6 +17,5 @@
   border-radius: var(--border-radius);
 }
 .current {
-  color: var(--color-text-unpainted);
   background-color: var(--color-button-primary);
 }

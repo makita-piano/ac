@@ -69,7 +69,10 @@ export const getNewsList = async (queries?: MicroCMSQueries) => {
   const listData = await client
     .getList<News>({
       endpoint: 'news',
-      queries,
+      queries: {
+        ...queries,
+        orders: '-publishedAt', // ← ここで降順に指定
+      },
     })
     .catch(notFound);
   return listData;

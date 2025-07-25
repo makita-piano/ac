@@ -2,9 +2,9 @@ import Hero from '@/app/_components/Hero';
 import Sheet from '@/app/_components/Sheet';
 
 export const metadata = {
-  title: '事業内容｜シンプルなコーポレートサイト',
+  title: '事業内容｜株式会社アクイユ',
   openGraph: {
-    title: '事業内容｜シンプルなコーポレートサイト',
+    title: '事業内容｜株式会社アクイユ',
   },
   alternates: {
     canonical: '/business',

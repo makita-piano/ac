@@ -68,32 +68,25 @@ export default async function Page() {
             <div>
               <h2 className={styles.sectionTitleEn}>About Us</h2>
               <p className={styles.sectionTitleJa}>私たちについて</p>
-              <p className={styles.sectionDescription}>
-                「テクノロジーの力で世界を変える」をミッションに掲げ、日々活動をしています。
-              </p>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>社名</dt>
-                <dd className={styles.infoDescription}>株式会社Simple</dd>
+                <dd className={styles.infoDescription}>株式会社アクイユ</dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>設立</dt>
-                <dd className={styles.infoDescription}>2023年4月</dd>
+                <dd className={styles.infoDescription}>2025年x月</dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>所在地</dt>
                 <dd className={styles.infoDescription}>
-                  〒000-0000
+                  〒336-0967
                   <br />
-                  東京都渋谷区渋谷1-1-1
+                  埼玉県さいたま市緑区美園６丁目９番地１０
                 </dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>代表者</dt>
-                <dd className={styles.infoDescription}>鈴木 太郎</dd>
-              </dl>
-              <dl className={styles.info}>
-                <dt className={styles.infoTitle}>資本金</dt>
-                <dd className={styles.infoDescription}>1,000万円</dd>
+                <dd className={styles.infoDescription}>吉田　貴子</dd>
               </dl>
             </div>
           </div>
@@ -109,7 +102,7 @@ export default async function Page() {
               <br />
               新しいアイデアを出し合い、成長する環境で活躍したい方は、ぜひご応募ください。当社でのキャリアを築きながら、技術の最前線で力を発揮しましょう。
             </p>
-            <ButtonLink href="">採用情報へ</ButtonLink>
+            <ButtonLink href="/recruit">採用情報へ</ButtonLink>
           </div>
           <Image
             className={styles.hiringImg}
