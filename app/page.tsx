@@ -13,9 +13,9 @@ export default async function Page() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>テクノロジーの力で世界を変える</h1>
+          <h1 className={styles.title}>はじまりに、そっと寄り添う</h1>
           <p className={styles.description}>
-            私たちは市場をリードしているグローバルテックカンパニーです。
+            accueil──迎える心を、すべての出発点に。
           </p>
         </div>
         <Image
