@@ -17,7 +17,7 @@ export default function Footer() {
           </li>
         </ul>
       </nav>
-      <p>© SIMPLE. All Rights Reserved 2023</p>
+      <p>©Accueil Inc. All Rights Reserved 2025</p>
     </footer>
   );
 }

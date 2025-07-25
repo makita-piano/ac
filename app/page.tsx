@@ -75,14 +75,14 @@ export default async function Page() {
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>設立</dt>
-                <dd className={styles.infoDescription}>2025年x月</dd>
+                <dd className={styles.infoDescription}>2025年4月</dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>所在地</dt>
                 <dd className={styles.infoDescription}>
                   〒336-0967
                   <br />
-                  埼玉県さいたま市緑区美園６丁目９番地１０
+                  埼玉県さいたま市緑区美園６丁目９ー１０
                 </dd>
               </dl>
               <dl className={styles.info}>
@@ -101,7 +101,7 @@ export default async function Page() {
             <p className={styles.sectionDescription}>
               当社では、チャレンジ精神を持った人材を求めています。
               <br />
-              新しいアイデアを出し合い、成長する環境で活躍したい方は、ぜひご応募ください。当社でのキャリアを築きながら、技術の最前線で力を発揮しましょう。
+              新しいアイデアを出し合い、成長する環境で活躍したい方は、ぜひご応募ください。
             </p>
             <ButtonLink href="/recruit">採用情報へ</ButtonLink>
           </div>
